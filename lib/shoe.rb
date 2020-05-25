@@ -8,12 +8,7 @@ class Shoe
 
   def cobble
     puts "Your shoe is as good as new!"
+    self.condition = "new"
   end
 
-  def change_condition
-    self.condition = new
-  end
-  # def change_name_to_nil
-  #     self.name = nil                 # setter method inside class
-  # end
 end
