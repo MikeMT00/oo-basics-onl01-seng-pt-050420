@@ -11,7 +11,7 @@ class Shoe
   end
 
   def change_condition
-    self.condition = "new"
+    self.condition = new
   end
   # def change_name_to_nil
   #     self.name = nil                 # setter method inside class
